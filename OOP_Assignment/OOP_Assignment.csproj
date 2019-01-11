@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\..\WU18_MVC_TDD_05\WU18_MVC_TDD_05\bin\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
